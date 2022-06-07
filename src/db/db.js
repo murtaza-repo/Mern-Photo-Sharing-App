@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const DB_NAME = '<your db name here>';
+const DB_NAME = 'photo-sharing';
 
 export const db = {
     _dbClient: null,

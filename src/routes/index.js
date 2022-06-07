@@ -1,5 +1,15 @@
-import { helloRoute } from './helloRoute';
+import { getMyPhotosRoute } from './getMyPhotosRoute';
+import { getSharedWithMePhotosRoute } from './getSharedWithMePhotosRoute';
+import { uploadPhotoRoute } from './uploadPhotoRoute';
+import { getPhotoRoute } from './getPhotoRoute';
+import { shareWithEmailRoute } from './shareWithEmailRoute';
 
+
+export { protectRouteMiddleware } from './protectRouteMiddleware';
 export const routes = [
-    helloRoute,
+    getMyPhotosRoute,
+    getSharedWithMePhotosRoute,
+    uploadPhotoRoute,
+    getPhotoRoute,
+    shareWithEmailRoute
 ];
